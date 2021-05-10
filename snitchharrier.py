@@ -1,8 +1,6 @@
 import sys
 import pyopencl as cl
 import numpy as np
-import time
-
 
 print("Using PyOpenCL Version", cl.VERSION_TEXT)
 
