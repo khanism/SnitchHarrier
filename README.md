@@ -8,7 +8,7 @@ SnitchHarrier supports 128-,192- and 256 bit keys.
 
 ## Usage
 ```
-snitchharrier.py -i <input file> -kl <keylength> [-kf <Path to file containing kernel code>]
+python snitchharrier.py -i <input file> -kl <keylength> [-kf <Path to file containing kernel code>]
 ```
 keylength must be 128, 192 or 256.
 If -kf is not specified, the local kernel.c file will be loaded as the default kernel
